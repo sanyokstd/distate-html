@@ -1,0 +1,470 @@
+.cripto .title {
+    margin-bottom: 43px;
+}
+
+.cripto__left {
+    width: 34%;
+    padding-top: 25px;
+}
+
+.ctab__item {
+    margin-bottom: 6px;
+}
+
+.ctab__wrap {
+    display: none;
+    border-left: 0.5px solid #0b1e73;
+    margin-left: 5px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ctab__item > span {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #0b1e73;
+}
+
+.ctab {
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1;
+    color: #0b1e73;
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.ctab span {
+    font-size: 14px;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.ctab.active {
+    color: #316bd2;
+}
+
+.ctab:hover {
+    color: #316bd2;
+}
+
+.cripto__right {
+    width: 796px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
+    box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 18px 10px;
+}
+
+.cripto {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+
+.cripto__header {
+    background: -webkit-linear-gradient(166.2deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: -o-linear-gradient(166.2deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: linear-gradient(283.8deg, #fc8131 1.16%, #fe9544 98.84%);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 75.13px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.cripto__header td {
+    padding: 0px 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cripto__body td {
+    padding: 20px 10px;
+    height: initial;
+    border-right: 1px solid #00000026;
+}
+
+.cripto__h__price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.cripto__header .cripto__h__chang {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    border-right: 0;
+}
+
+.cripto__h__name {
+    min-width: 500px;
+}
+
+.cripto__name {
+    width: 501px;
+}
+
+.cripto__name span {
+    color: #ec3a5c;
+    display: block;
+    margin-top: 25px;
+}
+
+.cripto__name div {
+    margin-top: 25px;
+}
+
+.cripto__form {
+    width: 100%;
+    display: none;
+}
+
+.cripto__num {
+    min-width: 55px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.cripto__h__num {
+    width: 48px;
+}
+
+.cripto__price {
+    width: 124px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+}
+
+.cripto__n__price {
+    width: 127px;
+}
+
+.cripto__body .cripto__checkbox {
+    width: 84px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: initial;
+    border-right: 0;
+}
+
+.cripto__body tr {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #00000026;
+}
+
+.cripto__body tr:first-child {
+    border-top: 0;
+}
+
+.cripto__body {
+    display: block;
+}
+
+.cripto__checkbox input {
+    display: none;
+}
+
+.cripto__checkbox label {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 23.6px;
+    height: 23.6px;
+    border: 0.5px solid #0b1e73;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.cripto__checkbox label i {
+    display: none;
+}
+
+.cripto__checkbox label.active i {
+    display: block;
+}
+
+.cripto__fix {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 57px;
+    left: 0;
+    z-index: 2;
+    right: 0;
+    padding: 10px 0;
+    border: 0.5px solid #0b1e73;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 0;
+    border-left: 0;
+    -webkit-box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
+    box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
+}
+
+.cripto__fix .wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.cripto__fix-left button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.015em;
+    color: #c7c7c7;
+}
+
+.cripto__fix-left button svg {
+    margin-right: 15px;
+    margin-bottom: 4px;
+}
+
+.cripto__fix-left button:hover {
+    color: #ec3a5c;
+    cursor: pointer;
+}
+
+.cripto__fix-left button:hover svg path {
+    fill: #ec3a5c;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.cripto__fix-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+}
+
+.cripto__fix__num {
+    min-width: 39px;
+    position: relative;
+    top: -5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 1px solid #0b1e73;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.cripto__fix-right button {
+    font-size: 20px;
+    line-height: 27px;
+    width: 177px;
+    background: -webkit-linear-gradient(173.5deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: -o-linear-gradient(173.5deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: linear-gradient(276.5deg, #fc8131 1.16%, #fe9544 98.84%);
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    border: 0;
+    padding: 5px 30px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 56px;
+}
+
+.count2 {
+    display: none;
+}
+
+.forma1 input {
+    padding: 12px 16px;
+}
+
+.forma1 textarea {
+    height: 125px;
+}
+
+@media (max-width: 1200px) {
+    .cripto__h__name {
+        width: 405px;
+    }
+
+    .cripto__name {
+        width: 406px;
+    }
+
+    .cripto__price {
+        width: 121px;
+    }
+
+    .cripto__left {
+        padding-right: 40px;
+    }
+
+    .ctab {
+        font-size: 16px;
+    }
+
+    .ctab__item {
+        margin-bottom: 10px;
+    }
+}
+
+.cripto__mob {
+    display: none;
+}
+
+@media (max-width: 1023px) {
+    .cripto {
+        display: none;
+    }
+
+    .cripto__mob {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 50px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .cripto__mob__t {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .cripto__mob__text {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.015em;
+    }
+
+    .cripto__mob__bot {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        border-top: 1px solid #515154;
+        padding: 0 20px;
+        padding-top: 20px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .cripto__mob__bot span {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 15px;
+    }
+
+    .forma1__span {
+        display: none;
+    }
+}
